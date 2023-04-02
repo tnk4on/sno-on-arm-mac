@@ -38,7 +38,7 @@ git clone https://github.com/tnk4on/sno-on-arm-mac.git
 cd sno-on-arm-mac
 ```
 
-### 2. Get the OpenShift Installer and OpenShift CLI
+### 2. Get OpenShift Installer and OpenShift CLI
 ```
 export OCP_VERSION=4.13.0-rc.2
 export ARCH=aarch64
@@ -52,7 +52,7 @@ sudo cp openshift-install oc /usr/local/bin/
 cd ..
 ```
 
-### 3. Get the RHCOS ISO
+### 3. Get RHCOS ISO
 
 ```
 mkdir iso
@@ -60,7 +60,7 @@ ISO_URL=$(openshift-install coreos print-stream-json | grep location | grep $ARC
 curl -L $ISO_URL -o iso/rhcos-live.iso
 ```
 
-### Running DNS servers
+### Run DNS server
 
 #### 1. Change Podman machine to root mode
 
