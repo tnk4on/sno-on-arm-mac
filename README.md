@@ -162,10 +162,9 @@ sudo fdisk -l
 ip a
 ```
 
-> (Reference)
->
->- NIC: `enp0s1`(UTM), `ens160`(VMware Fusion)
->- Storage Device: `/dev/vda`(UTM), `/dev/nvme0n1`(VMware Fusion NVMe), `/dev/sda`(VMware Fusion SATA)
+(Reference)
+- NIC: `enp0s1`(UTM), `ens160`(VMware Fusion)
+- Storage Device: `/dev/vda`(UTM), `/dev/nvme0n1`(VMware Fusion NVMe), `/dev/sda`(VMware Fusion SATA)
 
 ### 7. Update the install-config.yaml
 
@@ -281,7 +280,7 @@ hosts:
 ```
             next-hop-interface: enp0s1
 ```
-- DNS Server: To use the DNS server that was run in a container, set the IP address of the ARM Mac host."
+- DNS Server: To use the DNS server that was run in a container, set the IP address of the ARM Mac host.
 
 ```
       dns-resolver:
