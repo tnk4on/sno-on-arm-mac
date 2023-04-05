@@ -1,6 +1,9 @@
 # Single Node OpenShift on ARM Mac
-Install Single Node OpenShift on Apple Silicon-based Mac (ARM Mac)
 ![Single Node OpenShift on ARM Mac](docs/img/sno-on-arm-mac.png)
+Install Single Node OpenShift on Apple Silicon-based Mac (ARM Mac)
+
+(*) This content is for verification purposes only and does not guarantee use in a production environment or official support.
+
 ## Installation Method
 - Agent-based install(Recommended): This document. See below.
 - UPI: See [sno-upi.md](docs/sno-upi.md).

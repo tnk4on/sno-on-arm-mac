@@ -1,14 +1,16 @@
 # How to install (for UPI)
+(*) This content is for verification purposes only and does not guarantee use in a production environment or official support.
+
 Install Single Node OpenShift with UPI on Apple Silicon-based Mac (ARM Mac)
 
 Reference document: [Installing single-node OpenShift manually](https://docs.openshift.com/container-platform/4.12/installing/installing_sno/install-sno-installing-sno.html#installing-single-node-openshift-manually)
 
 
 ## Prerequisites
-See [README](../README.md)
+See [README](../README.md#prerequisites)
 
 ## Sample Parameters
-See [README](../README.md)
+See [README](../README.md#sample-parameters)
 
 ## Architecture (UPI install)
 
@@ -40,19 +42,19 @@ cd ..
 
 ### 3. Get the RHCOS ISO
 
-See [README](../README.md)
+See [README](../README.md#3-get-the-rhcos-iso-for-use-only-in-test-boot)
 
 ### 4. Run the DNS server
 
-See [README](../README.md)
+See [README](../README.md#4-run-the-dns-server)
 
 ### 5. Change Mac host settings
 
-See [README](../README.md)
+See [README](../README.md#5-change-the-mac-host-system-settings)
 
 ### 6. Test boot of the RHCOS ISO and confirmation the device names
 
-See [README](../README.md)
+See [README](../README.md#6-test-boot-of-the-rhcos-iso-and-confirmation-the-device-names)
 
 ### 7. update install-config.yaml
 
