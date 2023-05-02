@@ -9,12 +9,14 @@ Install Single Node OpenShift on Apple Silicon-based Mac (ARM Mac)
 - UPI: See [sno-upi.md](docs/sno-upi.md).
 - Assisted Installer: Not yet successful(at 4.13.0-rc.2).
 
-Installation Results (on 18/Apr/2023)
-| Method| 4.13-rc.0| 4.13-rc.2| 4.13-rc.3| 4.13-rc.4|
-|:-|:-|:-|:-|:-|
-| Agent-based install| NG| OK| NG| NG|
-| UPI| OK| OK| OK| OK|
-| Assisted Installer| NG| NG| NG| NG|
+Installation Results (on 2/May/2023)
+| Method| 4.13.0-rc.0| 4.13.0-rc.2| 4.13.0-rc.3| 4.13.0-rc.4| 4.13.0-rc.5| 4.13.0-rc.6|
+|:-|:-|:-|:-|:-|:-|:-|
+| Agent-based install| NG| OK| NG| NG| OK| OK|
+| UPI| OK| OK| OK| OK| OK| OK|
+| Assisted Installer| NG| NG| NG| NG| NG(*1)| OK|
+
+(*1)https://issues.redhat.com/browse/OCPBUGS-12475
 
 ## Prerequisites
 - Podman Desktop
