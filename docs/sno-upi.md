@@ -1,10 +1,12 @@
-# How to install (for UPI)
+# How to install (for UPI install)
+
+Install Single Node OpenShift with UPI install on Apple Silicon-based Mac (ARM Mac)
+
 (*) This content is for verification purposes only and does not guarantee use in a production environment or official support.
 
-Install Single Node OpenShift with UPI on Apple Silicon-based Mac (ARM Mac)
 
-Reference document: [Installing single-node OpenShift manually](https://docs.openshift.com/container-platform/4.12/installing/installing_sno/install-sno-installing-sno.html#installing-single-node-openshift-manually)
-
+Reference document:
+- [Installing single-node OpenShift manually](https://docs.openshift.com/container-platform/4.12/installing/installing_sno/install-sno-installing-sno.html#installing-single-node-openshift-manually)
 
 ## Prerequisites
 See [README](../README.md#prerequisites)
@@ -12,13 +14,11 @@ See [README](../README.md#prerequisites)
 ## Sample Parameters
 See [README](../README.md#sample-parameters)
 
-## Architecture (UPI install)
+## Architecture (for UPI install)
 
 ![SNO on ARM Mac architecture for UPI install](../docs/img/sno-arch-upi.png)
 
-## Install
-
-Install Single Node OpenShift with UPI on Apple Silicon-based Mac (ARM Mac)
+## How to install (for UPI install)
 
 ### 1. Clone this Git repository
 ```
