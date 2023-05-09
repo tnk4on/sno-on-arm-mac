@@ -7,14 +7,14 @@ Install Single Node OpenShift on Apple Silicon-based Mac (ARM Mac)
 ## Installation Method
 - Agent-based install(Recommended): This document. See below.
 - UPI: See [sno-upi.md](docs/sno-upi.md).
-- Assisted Installer: Not yet successful(at 4.13.0-rc.2).
+- Assisted Installer: See [sno-ai.md](docs/sno-ai.md).
 
-Installation Results (on 2/May/2023)
-| Method| 4.13.0-rc.0| 4.13.0-rc.2| 4.13.0-rc.3| 4.13.0-rc.4| 4.13.0-rc.5| 4.13.0-rc.6|
-|:-|:-|:-|:-|:-|:-|:-|
-| Agent-based install| NG| OK| NG| NG| OK| OK|
-| UPI| OK| OK| OK| OK| OK| OK|
-| Assisted Installer| NG| NG| NG| NG| NG(*1)| OK|
+Installation Results (on 9/May/2023)
+| Method| 4.13.0-rc.0| 4.13.0-rc.2| 4.13.0-rc.3| 4.13.0-rc.4| 4.13.0-rc.5| 4.13.0-rc.6| 4.13.0-rc.7|
+|:-|:-|:-|:-|:-|:-|:-|:-|
+| Agent-based install| NG| OK| NG| NG| OK| OK| OK|
+| UPI| OK| OK| OK| OK| OK| OK| OK|
+| Assisted Installer| NG| NG| NG| NG| NG(*1)| OK| OK|
 
 (*1)https://issues.redhat.com/browse/OCPBUGS-12475
 
@@ -61,7 +61,7 @@ Installation Results (on 2/May/2023)
 | Use Apple Virtualization| On|
 
 
-## Architecture (Agent-based install)
+## Architecture (for Agent-based install)
 
 ![SNO on ARM Mac architecture for Agent-based install](docs/img/sno-arch-abi.png)
 
