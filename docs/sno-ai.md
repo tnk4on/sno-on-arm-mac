@@ -41,7 +41,7 @@ See [README](../README.md#4-run-the-dns-server)
 
 Go to the Assisted Insaller's UI(following link).
 
-- https://console.redhat.com/openshift
+- https://console.redhat.com/openshift/create
 
 Switch to the Datacenter tab, and press `Create cluster`.
 
@@ -50,7 +50,7 @@ Switch to the Datacenter tab, and press `Create cluster`.
 
 #### (1) Cluster details
 
-| Item | Example Value| Description|
+| Item| Example Value| Description|
 |:-|:-|:-|
 | Cluster name| sno| |
 | Base domain| home.lab| |
@@ -134,7 +134,7 @@ Expand the host name to see the host details.
 ![Host discovery-after ISO booting](../docs/img/sno-ai-09.png)
 - NTP Status: Immediately after the host is registered, the status may be an error.
 
-#### (5) Host discovery
+#### (5) Storage
 
 Press `Next`.
 
