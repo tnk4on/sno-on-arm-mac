@@ -9,12 +9,12 @@ Install Single Node OpenShift on Apple Silicon-based Mac (ARM Mac)
 - UPI: See [sno-upi.md](docs/sno-upi.md).
 - Assisted Installer: See [sno-ai.md](docs/sno-ai.md).
 
-Installation Results (on 9/May/2023)
-| Method| 4.13.0-rc.0| 4.13.0-rc.2| 4.13.0-rc.3| 4.13.0-rc.4| 4.13.0-rc.5| 4.13.0-rc.6| 4.13.0-rc.7|
-|:-|:-|:-|:-|:-|:-|:-|:-|
-| Agent-based install| NG| OK| NG| NG| OK| OK| OK|
-| UPI| OK| OK| OK| OK| OK| OK| OK|
-| Assisted Installer| NG| NG| NG| NG| NG(*1)| OK| OK|
+Installation Results (on 31/May/2023)
+| Method| 4.13.0-rc.0| 4.13.0-rc.2| 4.13.0-rc.3| 4.13.0-rc.4| 4.13.0-rc.5| 4.13.0-rc.6| 4.13.0-rc.7| 4.13.0|
+|:-|:-|:-|:-|:-|:-|:-|:-|:-|
+| Agent-based install| NG| OK| NG| NG| OK| OK| OK| OK|
+| UPI| OK| OK| OK| OK| OK| OK| OK| OK|
+| Assisted Installer| NG| NG| NG| NG| NG(*1)| OK| OK| OK|
 
 (*1)https://issues.redhat.com/browse/OCPBUGS-12475
 
@@ -96,7 +96,7 @@ cd ..
 
 ```
 mkdir iso
-ISO_URL=$(openshift-install coreos print-stream-json | grep location | grep $ARCH | grep iso | cut -d\" -f4)
+export ISO_URL=$(openshift-install coreos print-stream-json | grep location | grep $ARCH | grep iso | cut -d\" -f4)
 curl -L $ISO_URL -o iso/rhcos-live.iso
 ```
 
